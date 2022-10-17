@@ -92,7 +92,7 @@ class BinarySearchTree {
         }
 
         if(tree.left !== null && tree.right !== null) {
-          const _ = this.max(tree.left)
+          const _ = this.min(tree.right)
 
           this.remove(_)
 
